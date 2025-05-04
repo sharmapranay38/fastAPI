@@ -42,5 +42,5 @@ def create_blog(request:Blog):
     return {'data':f'this is the body : {request.body}'}
     return {'data':'blog is created'}   
 
-if __name__ == "__main__":
-    uvicorn.run(app,host='127.0.0.1',port=6969)
+# if __name__ == "__main__":
+#     uvicorn.run(app,host='127.0.0.1',port=6969)
